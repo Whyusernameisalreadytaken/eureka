@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class EurekaApplication {
 
     /**
-     * java9 and java9+ need to add VM options --add-modules java.xml.bind
+     * java 9 and later version  need to add VM options '--add-modules java.xml.bind'
      * @param args
      */
     public static void main(String[] args) {
